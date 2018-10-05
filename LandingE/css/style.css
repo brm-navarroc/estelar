@@ -259,6 +259,32 @@ margin: auto;
 
 }
 
+@media only screen and (max-width: 650px) and (orientation: landscape){
+
+.bottom-cel{
+  display: none;
+}
+
+.title-grl{
+  width: 50%;
+  margin: 0 20% 0 20%;
+  padding-top: 1%;
+
+}
+.slider{
+
+  width: 60%;
+  height: 500px;
+  margin: 0 20% 0 20%;
+  max-height: 50%;
+  border: none;
+  border-radius: 10px;
+  background-color: #000;
+  background-image: none;
+}
+
+}
+
 
 @media only screen and (min-width: 650px) {
 
