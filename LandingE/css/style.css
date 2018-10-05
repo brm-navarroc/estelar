@@ -38,7 +38,6 @@
 
 
 
-
 * {box-sizing:border-box}
 
 body{
@@ -51,6 +50,10 @@ background-size: cover;
   position: relative;
 }
 
+#block-system-main{
+  height: 100%;
+}
+
 .hide-mobile{
   display: none;
 }
@@ -60,7 +63,7 @@ background-size: cover;
   
     position: relative;
     width: 98%;
-    height: auto;
+    height: 100%;
     margin: auto;
     
     margin-top: 2em;
