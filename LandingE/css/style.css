@@ -567,10 +567,32 @@ left: 520px;
  
 }
 
+
+
 .post-it{
 
   width: 50%;
   margin: -2% 25% 3% 25%;
 }
   
+}
+
+@media only screen and (min-width: 1600px){
+
+  .title-grl{
+    padding-top: 2%;
+  }
+
+  .slider{
+    width: 50%;
+  height: 500px;
+  margin: 0 25%;
+  }
+
+  .post-it{
+
+  width: 40%;
+  margin: -2% 30% 3% 30%;
+}
+
 }
