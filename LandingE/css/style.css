@@ -36,8 +36,6 @@
 }
 
 
-
-
 * {box-sizing:border-box}
 
 body{
@@ -51,7 +49,7 @@ background-size: cover;
 }
 
 #block-system-main{
-  height: 100%;
+  height: 90%;
 }
 
 .hide-mobile{
@@ -168,6 +166,7 @@ position: absolute;
 text-align: center;
 }
 
+
 .dot1{
 /*background-color: red;*/
 transform: rotate(7deg);
@@ -239,46 +238,29 @@ bottom: 0;
 background-color: rgba(0,0,0,0.4);
 color: #fff;
 width: 100%;
-padding: 15px 15%;
+padding: 15px 5%;
 text-align: center;
 font-family: 'Nexa';
 font-size: 0.8em;
 
 }
 
-footer{
-  position: absolute;
-  bottom: 0;
-  background-color: rgba(0,0,0,0.4);
-  color: #fff;
-  width: 100%;
-  padding: 15px 5%;
-  text-align: center;
-  font-family: 'Nexa';
-  font-size: 0.6em;
-text-align: center;
-width: 100%;
-margin: auto;
-
-}
-
 @media only screen and (max-width: 650px) and (orientation: landscape){
 
-.bottom-cel{
+.bottom-cel, .prev, .next{
   display: none;
 }
 
 .title-grl{
-  width: 50%;
-  margin: 0 20% 0 20%;
+  width: 70%;
+  margin: 0 15% 0 15%;
   padding-top: 1%;
 
 }
 .slider{
 
-  width: 60%;
-  height: 500px;
-  margin: 0 20% 0 20%;
+  width: 70%;
+  margin: 0 15% 0 15%;
   max-height: 50%;
   border: none;
   border-radius: 10px;
@@ -286,16 +268,150 @@ margin: auto;
   background-image: none;
 }
 
+.slideshow-container {
+    max-width: 95%;
+    }
+
+.mySlides {
+  padding-top: 10px;
+  height: 95%;
 }
 
+.mySlides img {
+  border-radius: 2px;
+}
 
-@media only screen and (min-width: 650px) {
+.text-slider{
+  padding-top: 0;
+}
+.text-slider h4{
+  font-size: 1.5em;
+}
+.text-slider h2{
+  font-size: 1.8em;
+}
+.post-it{
+  width: 60%;
+  margin: -5% 20% 0 20%;
+}
+
+.dot{
+  left: 0;
+  width: 70px;
+  height: 70px;
+  font-size: 0.9em;
+  padding-top: 15px;
+  margin: 0;
+}
+
+.dot1{
+
+left: 0;
+}
+.dot2{
+
+left: 100px;
+}
+.dot3{
+
+left: 190px;
+}
+.dot4{
+
+left: 280px;
+}
+
+}
+
+@media only screen and (min-width: 700px){
+
+.prev, .next{
+  display: none;
+}
+
+.title-grl{
+  font-size: 1.2em;
+}
+
+.slider{
+  max-width: 90%;
+  height: 75%;
+}
+.bottom-cel{
+max-width: 90%;
+}
+
+.mySlides{
+  padding-top: 30px;
+}
+
+.mySlides img{
+
+  border-radius: 60px 60px 10px 10px;
+}
+.text-slider{
+  padding-top: 30%;
+}
+
+.text-slider h4{
+  font-size: 3em;
+}
+.text-slider h2{
+  font-size: 4em;
+}
+
+.text-slider a {
+    font-size: xx-large;
+  }
+
+.post-it{
+  width: 80%;
+  margin: -18% 10% 0 10%;
+}
+
+.dot{
+  left: 0;
+  width: 120px;
+  height: 120px;
+  font-size: 1.5em;
+  padding-top: 35px;
+  margin: 0;
+}
+
+.dot1{
+
+left: 0;
+}
+.dot2{
+
+left: 160px;
+}
+.dot3{
+
+left: 320px;
+}
+.dot4{
+
+left: 480px;
+}
+
+footer{
+  font-size: 1em;
+}
+
+}
+
+@media only screen and (min-width: 1024px) {
 
 .hide-pc{
   display: none;
 }
 .hide-mobile{
   display: block;
+}
+
+body{
+  background-position: center;
 }
 
 .container{
@@ -308,22 +424,23 @@ margin: auto;
 }
 
 .title-grl{
-  width: 50%;
-  margin: 0 20% 0 20%;
+  width: 80%;
+  margin: 0 10% 0 10%;
   padding-top: 4%;
-  font-size: 1.8em;
+  font-size: 1.5em;
 }
 
 .slider{
 
-  width: 50%;
-  height: 500px;
-  margin: 0 20% 0 20%;
+  width: 70%;
+  height: 450px;
+  margin: 0 15% 0 15%;
   max-height: 50%;
-  border: solid 35px #000;
+  border: solid 25px #000;
   border-radius: 10px;
   background-color: #000;
   background-image: none;
+  overflow: hidden;
 }
 
 /* Slideshow container */
@@ -344,11 +461,8 @@ margin: auto;
   padding-top: 0;
 }
 .text-slider{
-      position: absolute;
-    top: 0;
-    width: 100%;
-    font-family: 'Bebas';
-    padding-top: 15%;
+
+    padding-top: 10%;
 }
 .text-slider h4{
   font-size: 2em;
@@ -359,8 +473,7 @@ margin: auto;
 }
 
 .text-slider a{
-  color: inherit;
-  text-decoration: none;
+  font-size: larger;
 }
 .btn-slide{
   border: solid 1px;
@@ -387,7 +500,7 @@ top: 0;
 .post-it{
 
   width: 60%;
-  margin: -1% 3% 3% 27%;
+  margin: -1% 20% 3% 20%;
 }
 .dot{
   font-size: 1.5em;
@@ -412,5 +525,52 @@ left: 520px;
 
 
 
+  
+}
+
+@media only screen and (min-width: 1200px) {
+  .container{
+  text-align: center;
+  position: relative;
+  width: 100%;
+  margin: auto;
+  background-image: none;
+  margin
+}
+
+.title-grl{
+  width: 80%;
+  margin: 0 10% 0 10%;
+  padding-top: 4%;
+  font-size: 1.5em;
+}
+
+.slider{
+
+  width: 60%;
+  height: 400px;
+  margin: 0 20%;
+  max-height: 50%;
+  border: solid 20px #000;
+  border-radius: 10px;
+  background-color: #000;
+  background-image: none;
+}
+
+/* Slideshow container */
+.slideshow-container {
+
+}
+
+/* Hide the images by default */
+.mySlides {
+ 
+}
+
+.post-it{
+
+  width: 50%;
+  margin: -2% 25% 3% 25%;
+}
   
 }
