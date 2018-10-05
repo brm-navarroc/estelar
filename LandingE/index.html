@@ -6,6 +6,11 @@
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="stylesheet" href="css/style.css">
+
+		
+		
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+		
 	</head>
 	<body>
 		<div class="container">
@@ -82,8 +87,9 @@
 			<div class="bottom-cel hide-pc">
 				<img src="img/bottom-cel.png" alt="">
 			</div>
-			<!-- The dots/circles -->
-					<div class="post-it">
+			
+					<!-- silder de post-it para mobile -->
+					<div class="post-it hide-pc">
 					  <span class="dot dot1" onclick="currentSlide(1)">
 					  	COMIDA
 					  </span> 
@@ -96,12 +102,17 @@
 					  <span class="dot dot4" onclick="currentSlide(4)">
 					  	AMBIENTE DE CIUDAD
 					  </span> 
+
+					  <!-- Next and previous buttons -->
+  <a class="prev" >&#10094;</a>
+  <a class="next" >&#10095;</a>
 					</div>
 		</div>
 		<footer>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex sapiente vitae rerum, similique est tempore facilis nisi nostrum non odio officiis veniam omnis inventore obcaecati atque aspernatur iure? Enim, fugiat. <br>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed quia blanditiis, fugiat illo repellendus ex magni labore nobis culpa, inventore doloribus totam commodi consequatur, in ipsam dolor perspiciatis tenetur assumenda?
+			Terminos y condiciones <a href="">Click Aqui</a>
 		</footer>
 		<script type="text/javascript" src="js/slider.js"></script>
+		<script type="text/javascript" src="js/slider-post-it.js"></script>
+	
 	</body>
 </html>
