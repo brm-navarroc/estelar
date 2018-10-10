@@ -58,14 +58,10 @@ background-size: cover;
 }
 
 .container{
-
-  
     position: relative;
     width: 98%;
     height: 100%;
     margin: auto;
-    
-    margin-top: 2em;
 }
 
 .title-grl{
@@ -75,7 +71,6 @@ background-size: cover;
   text-align: center;
   color: #fff;
   font-family: 'Bebas';
-  padding-top: 8%;
   font-size: 0.7em;
   text-shadow: 6px 8px 12px #1b1b1b;
 }
@@ -86,7 +81,7 @@ background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 98%;
-  height: 65%;
+  height: 68%;
 }
 
 .bottom-cel{
@@ -155,6 +150,12 @@ margin: auto;
   color: #444 !important;
   box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
   border-radius: 8px;
+}
+
+.btn-slide:hover, .btn-slide:focus{
+  outline: none;
+  background: lightgray;
+  box-shadow: none;
 }
 
 .btn-slide p {
