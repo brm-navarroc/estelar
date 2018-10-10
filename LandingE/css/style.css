@@ -121,29 +121,47 @@ margin: auto;
 }
 
 .text-slider{
-      position: absolute;
+    position: absolute;
     top: 0;
     width: 100%;
+    height: 100%;
     font-family: 'Bebas';
-    padding-top: 15%;
+    padding-top: 20%;
+    background-color: rgba(0,0,0,0.4);
+    color: #fff;
 }
 .text-slider h4{
-  font-size: 2em;
+  font-size: 1.8em;
+  margin: 0.5em;
 }
 
 .text-slider h2{
-  font-size: 3em;
+  font-size: 2.5em;
+  margin: 0.3em;
 }
 
 .text-slider a{
-  color: inherit;
   text-decoration: none;
+  display: inline-block;
+  width: 80%;
+  margin: 3% 10%;
+  font-size: x-large;
 }
 .btn-slide{
-  border: solid 1px;
-  padding: 8px 20px;
+  padding: 5px 10px;
   font-family: 'Bebas';
   text-transform: uppercase;
+  background: #fff;
+  color: #444 !important;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
+  border-radius: 8px;
+}
+
+.btn-slide p {
+  margin: 0.2em;
+}
+.btn-slide p span{
+  font-size: 1.2em;
 }
 
 .post-it{
@@ -321,6 +339,7 @@ left: 480px;
 
 footer{
   font-size: 1em;
+  bottom: -180px;
 }
 
 }
@@ -397,16 +416,28 @@ margin: auto;
 
 .text-slider h2{
   font-size: 3em;
+  margin-bottom: 2em;
 }
 
 .text-slider a{
   font-size: larger;
+  width: 30%;
+  margin: 0 1%;
 }
 .btn-slide{
-  border: solid 1px;
-  padding: 8px 20px;
+
+  padding: 8px 10px;
   font-family: 'Bebas';
   text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.btn-slide p{
+  font-size: 0.8em;
+}
+
+.btn-slide p span{
+  font-size: 1.1em;
 }
 
 .mySlides img {
@@ -488,7 +519,13 @@ left: 520px;
 }
 @media only screen and (min-width: 1300px){
 body{
-  height: 150vh;
+  height: 120vh;
+}
+.text-slider h2 {
+    margin-bottom: 1em;
+    }
+footer{
+  bottom: -100px;
 }
 }
 @media only screen and (min-width: 1600px){
@@ -502,9 +539,15 @@ body{
 
   .slider{
     width: 50%;
-  height: 500px;
+  height: 480px;
   margin: 0 25%;
   }
+  .btn-slide p {
+    font-size: 1.2em;
+}
+.text-slider h2 {
+    margin-bottom: 1.7em;
+}
 
   .post-it{
 
@@ -551,7 +594,7 @@ body{
 }
 
 .text-slider{
-  padding-top: 0;
+  padding-top: 8%;
 }
 .text-slider h4{
   font-size: 1.5em;
@@ -559,6 +602,21 @@ body{
 .text-slider h2{
   font-size: 1.8em;
 }
+
+.text-slider a {
+    display: inline-block;
+    width: 28%;
+    margin: auto 1%;
+  }
+
+.btn-slide p {
+  margin: 0.2em;
+  font-size: 0.4em;
+}
+.btn-slide p span{
+  font-size: 1.2em;
+}
+
 .post-it{
   width: 60%;
   margin: -5% 20% 0 20%;
@@ -594,4 +652,22 @@ left: 280px;
   bottom: -180px;
   font-size: 0.6em;
 }
+}
+@media only screen and (min-width: 800px) and (orientation:portrait){
+  .title-grl{
+    padding-top: 15%;
+    font-size: 2em;
+  }
+  .slider {
+    width: 80%;
+    height: 550px;
+    margin: 0 10% 0 10%;
+  }
+  .text-slider {
+    padding-top: 18%;
+}
+  .text-slider a {
+    width: 28%;
+    margin: 1% 1%;
+  }
 }
