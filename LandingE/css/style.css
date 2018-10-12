@@ -1,18 +1,22 @@
 @font-face {
   font-family: Lemon;
   src: url(../font/Lemon-Yellow-Sun.otf);
+  src: url(../font/Lemon-Yellow-Sun.eot);
 }
 @font-face {
   font-family: Nexa;
   src: url(../font/Nexa-Bold.otf);
+  src: url(../font/Nexa-Bold.eot);
 }
 @font-face {
   font-family: Bebas;
   src: url(../font/BebasNeue-Regular.otf);
+  src: url(../font/BebasNeue-Regular.eot);
 }
 @font-face {
   font-family: NexaL;
   src: url(../font/Nexa-Light.otf);
+  src: url(../font/Nexa-Light.eot);
 }
 
 .prev, .next {
@@ -545,9 +549,12 @@ footer{
   bottom: -130px;
 }
 }
+@media only screen and (min-width: 1200px){
+  footer{
+  bottom: 0;
+}
+}
 @media only screen and (min-width: 1300px){
-
-
 
 .title-grl{
       font-size: 1.8em;
@@ -588,9 +595,6 @@ footer{
 
 .btn-slide{
   font-size: 0.8em;
-}
-footer{
-  bottom: 0;
 }
 
 }
