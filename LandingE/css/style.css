@@ -10,6 +10,10 @@
   font-family: Bebas;
   src: url(../font/BebasNeue-Regular.otf);
 }
+@font-face {
+  font-family: NexaL;
+  src: url(../font/Nexa-Light.otf);
+}
 
 .prev, .next {
   cursor: pointer;
@@ -285,9 +289,13 @@ color: #fff;
 width: 100%;
 padding: 15px 5%;
 text-align: center;
-font-family: 'Nexa';
+font-family: 'NexaL';
 font-size: 0.5em;
 
+}
+
+footer span{
+  font-family: 'Nexa';
 }
 
 
@@ -693,8 +701,17 @@ left: 280px;
   display: block;
 }
 
+.prev, .next{
+  display: none;
+}
+
 body img#background{
   height: 130%;
+}
+.slider{
+  margin: 0 2% 0 2%;
+  overflow: hidden;
+  
 }
  
  .title-grl {
@@ -709,12 +726,17 @@ body img#background{
 
 .slideshow-container{
   margin-top: 30px;
-    border-radius: 30px 30px 0;
+    border-radius: 30px 30px 0 0;
+}
+
+.frame img#frame-mobile {
+    height: 1500px;
 }
 
 .bottom-cel{
 max-width: 70%;
 }
+
 
 .text-slider 
 {
@@ -737,14 +759,14 @@ max-width: 70%;
   }
 
 .post-it{
-  width: 70%;
-  margin: -10% 10% 0 20%;
+  width: 90%;
+  margin: -10% 5% 0 5%;
 }
 
 .dot{
   left: 0;
-  width: 120px;
-  height: 120px;
+  width: 180px;
+  height: 180px;
   font-size: 1.5em;
   padding: 35px 10px 10px;
   margin: 0;
@@ -756,19 +778,19 @@ left: 0;
 }
 .dot2{
 
-left: 160px;
+left: 220px;
 }
 .dot3{
 
-left: 320px;
+left: 440px;
 }
 .dot4{
 
-left: 480px;
+left: 680px;
 }
 
 footer{
-  font-size: 1em;
+  font-size: 1.5em;
   bottom: 0;
 }
 
