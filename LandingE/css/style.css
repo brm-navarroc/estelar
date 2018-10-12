@@ -5,8 +5,8 @@
 }
 @font-face {
   font-family: Nexa;
-  src: url(../font/Nexa-Bold.otf);
   src: url(../font/Nexa-Bold.eot);
+  src: url(../font/Nexa-Bold.otf);
 }
 @font-face {
   font-family: Bebas;
@@ -15,8 +15,8 @@
 }
 @font-face {
   font-family: NexaL;
-  src: url(../font/Nexa-Light.otf);
   src: url(../font/Nexa-Light.eot);
+  src: url(../font/Nexa-Light.otf);
 }
 
 .prev, .next {
