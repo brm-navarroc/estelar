@@ -124,6 +124,7 @@ margin: auto;
 
 .mySlides img {
   height: 90%;
+  width: auto;
 }
 
 .text-slider{
@@ -283,9 +284,6 @@ font-size: 0.5em;
 
 @media only screen and (min-width: 700px){
 
-.img-responsive-bg{
-  width: 100%;
-}
 
 .prev, .next{
   display: none;
@@ -398,6 +396,10 @@ background-color:#000;
 .mySlides {
   display: none;
   overflow: hidden;
+}
+
+.mySlides img{
+  width: 100%;
 }
 .text-slider{
   padding-top: 5em;
