@@ -1,7 +1,7 @@
 @font-face {
   font-family: Lemon;
-  src: url(../font/Lemon-Yellow-Sun.otf);
   src: url(../font/Lemon-Yellow-Sun.eot);
+  src: url(../font/Lemon-Yellow-Sun.otf);
 }
 @font-face {
   font-family: Nexa;
@@ -10,8 +10,8 @@
 }
 @font-face {
   font-family: Bebas;
-  src: url(../font/BebasNeue-Regular.otf);
   src: url(../font/BebasNeue-Regular.eot);
+  src: url(../font/BebasNeue-Regular.otf);
 }
 @font-face {
   font-family: NexaL;
