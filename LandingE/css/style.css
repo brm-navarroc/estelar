@@ -96,6 +96,7 @@ body{
 .frame{
   position: absolute;
   top: 0;
+  width: 100%;
 }
 
 .bottom-cel{
@@ -123,8 +124,9 @@ margin: auto;
 }
 
 .mySlides img {
-  height: 90%;
+  height: 85%;
   width: auto;
+  margin-top: 25px;
 }
 
 .text-slider{
@@ -137,7 +139,7 @@ margin: auto;
     color: #fff;
     border-radius: 30px 30px 0 0;
     padding-top: 5em;
-    margin-top: 30px;
+    margin-top: 25px;
     z-index: 100;
 }
 .text-slider h4{
@@ -270,7 +272,7 @@ footer{
   font-size: 0.8em;
 
 position: absolute;
-bottom: -30px;
+bottom: -60px;
 background-color: rgba(0,0,0,0.4);
 color: #fff;
 width: 100%;
@@ -289,14 +291,22 @@ font-size: 0.5em;
   display: none;
 }
 
-.title-grl{
-  font-size: 1.2em;
+.title-grl {
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
+.logo{
+  top: 170px;
 }
 
 .bottom-cel{
-max-width: 90%;
+max-width: 98%;
 }
 
+.text-slider 
+{
+  padding-top: 11em;
+}
 .text-slider h4{
   font-size: 3em;
 }
@@ -304,12 +314,13 @@ max-width: 90%;
   font-size: 4em;
 }
 
-.text-slider a {
+.btn-slide {
+  font-size: 1.8em;
   }
 
 .post-it{
   width: 80%;
-  margin: -18% 10% 0 10%;
+  margin: -10% 10% 0 10%;
 }
 
 .dot{
@@ -359,7 +370,7 @@ footer{
 
 .logo{
   top: 80px;
-  width: 13%;
+  width: 15%;
 }
 .container{
   text-align: center;
@@ -388,8 +399,9 @@ footer{
 /* Slideshow container */
 .slideshow-container {
 position: relative;
-margin: 2em 2em 3em;
+margin: 0 2.5%;
 background-color:#000;
+width: 95%;
 }
 
 /* Hide the images by default */
@@ -489,7 +501,7 @@ top: 0;
       font-size: 1.8em;
 }
 .slideshow-container{
-  margin: 1.5em 1.5em 2em;
+  margin: 1em 1em 2em;
 }
 .slider{
 
@@ -498,7 +510,8 @@ top: 0;
 }
 
 .myslides img{
-  height: 38%;
+  height: 35%;
+  margin-top: 0;
 }
 
 .text-slider{
@@ -655,19 +668,91 @@ left: 280px;
 }
 }
 @media only screen and (min-width: 800px) and (orientation:portrait){
-  .title-grl{
-    padding-top: 15%;
-    font-size: 2em;
-  }
-  .slider {
-    width: 80%;
-    margin: 0 10% 0 10%;
-  }
-  .text-slider {
-    padding-top: 18%;
+
+  .hide-mobile {
+    display: none;
 }
-  .text-slider a {
-    width: 28%;
-    margin: 1% 1%;
+.hide-pc{
+  display: block;
+}
+
+body img#background{
+  height: 130%;
+}
+ 
+ .title-grl {
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
+.logo{
+  top: 250px;
+    right: 180px;
+    width: 22%;
+}
+
+.slideshow-container{
+  margin-top: 30px;
+    border-radius: 30px 30px 0;
+}
+
+.bottom-cel{
+max-width: 70%;
+}
+
+.text-slider 
+{
+  padding-top: 11em;
+}
+
+.text-slider a{
+  width: 90%;
+  margin: 5%;
+}
+.text-slider h4{
+  font-size: 3em;
+}
+.text-slider h2{
+  font-size: 4em;
+}
+
+.btn-slide {
+  font-size: 3em;
   }
+
+.post-it{
+  width: 70%;
+  margin: -10% 10% 0 20%;
+}
+
+.dot{
+  left: 0;
+  width: 120px;
+  height: 120px;
+  font-size: 1.5em;
+  padding: 35px 10px 10px;
+  margin: 0;
+}
+
+.dot1{
+
+left: 0;
+}
+.dot2{
+
+left: 160px;
+}
+.dot3{
+
+left: 320px;
+}
+.dot4{
+
+left: 480px;
+}
+
+footer{
+  font-size: 1em;
+  bottom: 0;
+}
+
 }
